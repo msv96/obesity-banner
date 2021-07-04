@@ -1,0 +1,32 @@
+.overall{
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+}
+.lightyellowbb{
+    color: gold;
+    font-size: 50px;
+}
+.lightyellowb{
+    color: gold;
+}
+.lightbluebb{
+    color: #26d9d9;
+}
+.lightblueb{
+    color: #26d9d9;
+    font-size: 30px;
+}
+.lightbluen{
+    color: #26d9d9;
+}
+.darkbluebb{
+    color: navy;
+    font-size: 40px;
+}
+.darkblueb{
+    color: navy;
+    font-size: 40px;
+}
