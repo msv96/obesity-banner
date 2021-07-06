@@ -1,32 +1,49 @@
-.overall{
-    width: 100%;
-    height: 100%;
-    font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.overall {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c d";
     background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    text-align: center;
+    font-size: 12px;
 }
-.lightyellowbb{
-    color: gold;
-    font-size: 50px;
+.topleft {
+    grid-area: a;
 }
-.lightyellowb{
-    color: gold;
+.topright {
+    grid-area: b;
 }
-.lightbluebb{
-    color: #26d9d9;
+.bottomleft {
+    grid-area: c;
 }
-.lightblueb{
-    color: #26d9d9;
+.bottomright {
+    grid-area: d;
+}
+.heading1 {
+    color: rgb(30, 209, 241);
     font-size: 30px;
+    font-weight: 500;
 }
-.lightbluen{
-    color: #26d9d9;
+.info {
+    color: gold;
 }
-.darkbluebb{
-    color: navy;
-    font-size: 40px;
+.portion {
+    font-size: 20px;
 }
-.darkblueb{
-    color: navy;
-    font-size: 40px;
+.grey {
+    padding-top: 0.5em;
+    color: gray;
+}
+.banner {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(30, 209, 241);
+    text-align: center;
+    margin-top: 1em;
+}
+.images {
+    width: 20%;
 }
