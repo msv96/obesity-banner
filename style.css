@@ -1,6 +1,6 @@
 .overall {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 440px 440px;
     grid-template-areas: 
     "a b"
     "c d";
@@ -9,20 +9,25 @@
     max-width: 900px;
     text-align: center;
     font-size: 12px;
+
 }
 .topleft {
     grid-area: a;
+    padding-left: 10px;
 }
 .topright {
     grid-area: b;
     text-align: left;
+    padding-left: 10px;
 }
 .bottomleft {
     grid-area: c;
     text-align: left;
+    padding-left: 10px;
 }
 .bottomright {
     grid-area: d;
+    padding-left: 10px;
 }
 .heading1 {
     color: rgb(30, 209, 241);
@@ -37,32 +42,33 @@
     color: gray;
 }
 .banner {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     background-color: rgb(30, 209, 241);
     text-align: center;
     margin-top: 1em;
 }
 .images {
-    width: 30%;
+    width: 100px;
 }
 .inline {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "a1 . c1"
-    "b1 b1 c1"
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template: 
+    "a1 a1 a1"
+    "b1 c1 c1"
     "d1 e1 f1";
 }
 .portion {
     font-size: 20px;
     grid-area: a1;
     color: navy;
+    text-align: left;
 }
 .lrm {
     grid-area: b1;
-    align-items: flex-start;
     color: rgb(30, 209, 241);
+    text-align: left;
 }
 .x1 {
     grid-area: c1;
